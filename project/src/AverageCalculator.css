@@ -1,0 +1,48 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items horizontally */
+  }
+  
+  .select-container,
+  .button-container,
+  .result-container {
+    margin-bottom: 10px;
+  }
+  
+  .select-container select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result-container h2 {
+    text-align: center;
+  }
+  
